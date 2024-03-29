@@ -3,21 +3,66 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lab2_Lavrov_DS6.MainPage">
 
-    <StackLayout>
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
         <StackLayout Orientation="Horizontal">
-            <BoxView BackgroundColor="Red" Margin="5" />
-            <BoxView BackgroundColor="Blue" Margin="5" />
-            <BoxView BackgroundColor="Green" Margin="5" />
+            <Frame BorderColor="Black" CornerRadius="10" Padding="10" Margin="10">
+                <StackLayout>
+                    <BoxView BackgroundColor="Red" WidthRequest="80" HeightRequest="80" />
+                    <Label Text="Red" HorizontalOptions="Center" VerticalOptions="Center" />
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="10" Padding="10" Margin="10">
+                <StackLayout>
+                    <BoxView BackgroundColor="Blue" WidthRequest="80" HeightRequest="80" />
+                    <Label Text="Blue" HorizontalOptions="Center" VerticalOptions="Center" />
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="10" Padding="10" Margin="10">
+                <StackLayout>
+                    <BoxView BackgroundColor="Green" WidthRequest="80" HeightRequest="80" />
+                    <Label Text="Green" HorizontalOptions="Center" VerticalOptions="Center" />
+                </StackLayout>
+            </Frame>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-            <BoxView BackgroundColor="Yellow" Margin="5" />
-            <BoxView BackgroundColor="Orange" Margin="5" />
-            <BoxView BackgroundColor="Purple" Margin="5" />
+            <Frame BorderColor="Black" CornerRadius="10" Padding="10" Margin="10">
+                <StackLayout>
+                    <BoxView BackgroundColor="Yellow" WidthRequest="80" HeightRequest="80" />
+                    <Label Text="Yellow" HorizontalOptions="Center" VerticalOptions="Center" />
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="10" Padding="10" Margin="10">
+                <StackLayout>
+                    <BoxView BackgroundColor="Orange" WidthRequest="80" HeightRequest="80" />
+                    <Label Text="Orange" HorizontalOptions="Center" VerticalOptions="Center" />
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="10" Padding="10" Margin="10">
+                <StackLayout>
+                    <BoxView BackgroundColor="Purple" WidthRequest="80" HeightRequest="80" />
+                    <Label Text="Purple" HorizontalOptions="Center" VerticalOptions="Center" />
+                </StackLayout>
+            </Frame>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-            <BoxView BackgroundColor="Pink" Margin="5" />
-            <BoxView BackgroundColor="Teal" Margin="5" />
-            <BoxView BackgroundColor="Gray" Margin="5" />
+            <Frame BorderColor="Black" CornerRadius="10" Padding="10" Margin="10">
+                <StackLayout>
+                    <BoxView BackgroundColor="Pink" WidthRequest="80" HeightRequest="80" />
+                    <Label Text="Pink" HorizontalOptions="Center" VerticalOptions="Center" />
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="10" Padding="10" Margin="10">
+                <StackLayout>
+                    <BoxView BackgroundColor="Teal" WidthRequest="80" HeightRequest="80" />
+                    <Label Text="Teal" HorizontalOptions="Center" VerticalOptions="Center" />
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="10" Padding="10" Margin="10">
+                <StackLayout>
+                    <BoxView BackgroundColor="Gray" WidthRequest="80" HeightRequest="80" />
+                    <Label Text="Gray" HorizontalOptions="Center" VerticalOptions="Center" />
+                </StackLayout>
+            </Frame>
         </StackLayout>
     </StackLayout>
 
