@@ -1,0 +1,15 @@
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\bin\Debug\netstandard2.0\Lab4_Lavrov_DS6.deps.json
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\bin\Debug\netstandard2.0\Lab4_Lavrov_DS6.dll
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\bin\Debug\netstandard2.0\ref\Lab4_Lavrov_DS6.dll
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\bin\Debug\netstandard2.0\Lab4_Lavrov_DS6.pdb
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\obj\Debug\netstandard2.0\Lab4_Lavrov_DS6.csproj.AssemblyReference.cache
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\obj\Debug\netstandard2.0\Lab4_Lavrov_DS6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\obj\Debug\netstandard2.0\Lab4_Lavrov_DS6.AssemblyInfoInputs.cache
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\obj\Debug\netstandard2.0\Lab4_Lavrov_DS6.AssemblyInfo.cs
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\obj\Debug\netstandard2.0\Lab4_Lavrov_DS6.csproj.CoreCompileInputs.cache
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\obj\Debug\netstandard2.0\Lab4_Lavrov_DS6.dll
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\obj\Debug\netstandard2.0\refint\Lab4_Lavrov_DS6.dll
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab4_Lavrov_DS6\Lab4_Lavrov_DS6\obj\Debug\netstandard2.0\Lab4_Lavrov_DS6.pdb

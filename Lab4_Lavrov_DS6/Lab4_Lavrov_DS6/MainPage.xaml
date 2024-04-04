@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab4_Lavrov_DS6.MainPage">
+
+    <RelativeLayout BackgroundColor="LightGray">
+        <Label x:Name="lblLogo" Text="Calculator" TextColor="Blue" FontSize="Large"
+           RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant=-50}"/>
+
+        <Label x:Name="lblF"  Text="First operand" TextColor="Blue" FontSize="Medium"
+           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.1, Constant=0}" 
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.4}" 
+           RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"/>
+
+        <Entry x:Name="parameter1Entry" Placeholder="Enter first operand"
+           Keyboard="Numeric" TextChanged="Parameter1Entry_TextChanged" WidthRequest="200" HeightRequest="50"
+           RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblF, Property=X, Factor=1, Constant=140}"
+           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblF, Property=Y, Factor=1, Constant=-20}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" 
+           RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.06}"/>
+
+        <Label x:Name="lblS"  Text="Second operand" TextColor="Blue" FontSize="Medium"
+           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.1, Constant=50}" 
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.4}" 
+           RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"/>
+
+        <Entry x:Name="parameter2Entry" Placeholder="Enter second operand"
+           Keyboard="Numeric" TextChanged="Parameter2Entry_TextChanged"
+           RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblS, Property=X, Factor=1, Constant=140}"
+           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblS, Property=Y, Factor=1, Constant=-20}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" 
+           RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.06}"/>
+
+        <Label x:Name="lblOp" Text="Operation" TextColor="Blue" FontSize="Medium"
+           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.1, Constant=100}" 
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.4}" 
+           RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"/>
+
+        <Button x:Name="btnPlus" Text="+" Clicked="OnSummClicked"
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblOp, Property=X, Factor=1, Constant=140}"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblOp, Property=Y, Factor=1, Constant=-12.5}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.12}"/>
+        <Button x:Name="btnMinus" Text="-" Clicked="OnSubractionClicked"
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=btnPlus, Property=X, Factor=1, Constant=50}"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=btnPlus, Property=Y, Factor=1, Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.12}"/>
+        <Button x:Name="btnMulty" Text="*" Clicked="OnMultiplicationClicked"
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=btnPlus, Property=X, Factor=1, Constant=100}"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=btnPlus, Property=Y, Factor=1, Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.12}"/>
+        <Button x:Name="btnDiv" Text="/" Clicked="OnDivisionClicked"
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=btnPlus, Property=X, Factor=1, Constant=150}"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=btnPlus, Property=Y, Factor=1, Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.12}"/>
+
+        <Label x:Name="lblRes" Text="Result" TextColor="Blue" FontSize="Medium"
+           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.1, Constant=160}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.4}" 
+           RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"/>
+        <Label x:Name="textLabel1" FontSize="Large" TextColor="Red"
+           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblRes, Property=Y, Factor=1,Constant=-2}"
+           RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblRes, Property=X, Factor=1,Constant=100}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.9}" 
+           RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"/>
+    </RelativeLayout>
+
+
+</ContentPage>
