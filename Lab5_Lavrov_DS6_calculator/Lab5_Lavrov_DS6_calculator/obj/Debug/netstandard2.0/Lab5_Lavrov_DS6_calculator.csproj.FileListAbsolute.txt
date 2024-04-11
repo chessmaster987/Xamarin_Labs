@@ -1,0 +1,15 @@
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\obj\Debug\netstandard2.0\Lab5_Lavrov_DS6_calculator.csproj.AssemblyReference.cache
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\obj\Debug\netstandard2.0\Lab5_Lavrov_DS6_calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\obj\Debug\netstandard2.0\Lab5_Lavrov_DS6_calculator.AssemblyInfoInputs.cache
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\obj\Debug\netstandard2.0\Lab5_Lavrov_DS6_calculator.AssemblyInfo.cs
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\obj\Debug\netstandard2.0\Lab5_Lavrov_DS6_calculator.csproj.CoreCompileInputs.cache
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\obj\Debug\netstandard2.0\Lab5_Lavrov_DS6_calculator.dll
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\obj\Debug\netstandard2.0\refint\Lab5_Lavrov_DS6_calculator.dll
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\obj\Debug\netstandard2.0\Lab5_Lavrov_DS6_calculator.pdb
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\bin\Debug\netstandard2.0\Lab5_Lavrov_DS6_calculator.deps.json
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\bin\Debug\netstandard2.0\Lab5_Lavrov_DS6_calculator.dll
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\bin\Debug\netstandard2.0\ref\Lab5_Lavrov_DS6_calculator.dll
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\bin\Debug\netstandard2.0\Lab5_Lavrov_DS6_calculator.pdb
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab5_Lavrov_DS6_calculator\Lab5_Lavrov_DS6_calculator\obj\Debug\netstandard2.0\XamlC.stamp

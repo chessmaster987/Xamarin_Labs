@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "7wjlEaQBi+Vy3qYxp3HfTEU3oJf51TEsztEuw6LTVBpdCtzFEUUrqm/6I0GyS7SdRXorqe6tHI8I42c1jJiDTg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Olegi\\Documents\\GitHub\\Xamarin_Labs\\Lab5_Lavrov_DS6_calculator\\Lab5_Lavrov_DS6_calculator\\Lab5_Lavrov_DS6_calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Olegi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Olegi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Olegi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Olegi\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Olegi\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

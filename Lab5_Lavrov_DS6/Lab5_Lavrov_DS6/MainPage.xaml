@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab5_Lavrov_DS6.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <BoxView Grid.RowSpan="2"
+                 Grid.ColumnSpan="2"
+                 Color="Green" />
+        <BoxView Grid.Column="2"
+                 Grid.RowSpan="2"
+                 Color="Blue" />
+        <BoxView Grid.Row="2"
+                 Grid.RowSpan="2"
+                 Color="Teal" />
+        <BoxView Grid.Row="4"
+                 Grid.RowSpan="2"
+                 Color="Purple" />
+        <BoxView Grid.Column="1"
+                 Grid.Row="2"
+                 Grid.RowSpan="4"
+                 Color="Red" />
+        <BoxView Grid.Column="2"
+                 Grid.Row="2"
+                 Grid.RowSpan="4"
+                 Color="Pink" />
+        <BoxView Grid.Row="6"
+                 Grid.ColumnSpan="3"
+                 Color="YellowGreen" />
+        <BoxView Grid.Row="7"
+                 Grid.ColumnSpan="3"
+                 Color="LightCoral" />
+        <BoxView Grid.Row="8"
+                 Color="Goldenrod" />
+        <BoxView Grid.Row="8"
+                 Grid.Column="1"
+                 Color="MediumPurple" />
+        <BoxView Grid.Row="8"
+                 Grid.Column="2"
+                 Color="LightGoldenrodYellow" />
+    </Grid>
+
+
+</ContentPage>

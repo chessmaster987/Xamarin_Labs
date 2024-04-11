@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab5_Lavrov_DS6_calculator.MainPage">
+
+    <Grid BackgroundColor="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="lblLogo" Text="Calculator" TextColor="Blue" FontSize="Large"
+               HorizontalOptions="Center" Grid.ColumnSpan="5"/>
+
+        <Label x:Name="lblF" Text="First operand" TextColor="Blue" FontSize="Medium" Grid.Row="1" VerticalOptions="Center"/>
+
+        <Entry x:Name="parameter1Entry" Placeholder="Enter first operand"
+               Keyboard="Numeric" TextChanged="Parameter1Entry_TextChanged"
+               Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3"/>
+
+        <Label x:Name="lblS" Text="Second operand" TextColor="Blue" FontSize="Medium"
+               Grid.Row="2" VerticalOptions="Center"/>
+
+        <Entry x:Name="parameter2Entry" Placeholder="Enter second operand"
+               Keyboard="Numeric" TextChanged="Parameter2Entry_TextChanged"
+               Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3"/>
+
+        <Label x:Name="lblOp" Text="Operation" TextColor="Blue" FontSize="Medium"
+               Grid.Row="3"/>
+
+        <Button x:Name="btnPlus" Text="+" Clicked="OnSummClicked" Grid.Row="3" Grid.Column="1"/>
+
+        <Button x:Name="btnMinus" Text="-" Clicked="OnSubractionClicked" Grid.Row="3" Grid.Column="2"/>
+
+        <Button x:Name="btnMulty" Text="*" Clicked="OnMultiplicationClicked" Grid.Row="3" Grid.Column="3"/>
+
+        <Button x:Name="btnDiv" Text="/" Clicked="OnDivisionClicked" Grid.Row="3" Grid.Column="4"/>
+
+        <Label x:Name="lblRes" Text="Result" TextColor="Blue" FontSize="Medium" Grid.Row="4"/>
+
+        <Label x:Name="textLabel1" FontSize="Large" TextColor="Red" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="4"/>
+    </Grid>
+
+</ContentPage>
