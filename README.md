@@ -23,4 +23,4 @@ Xamarin labs from my uni subject
 
 # Lab6:
 
-![Result Lab6](https://github.com/chessmaster987/Xamarin_Labs/blob/main/Lab6_Lavrov_DS6/Result_Lab6.PNG)
+![Result Lab6](https://github.com/chessmaster987/Xamarin_Labs/blob/main/Lab6_Lavrov_DS6/Result_Lab6.PNG) 
