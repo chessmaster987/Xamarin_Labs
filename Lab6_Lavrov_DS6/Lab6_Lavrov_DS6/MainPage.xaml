@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab6_Lavrov_DS6.MainPage">
+
+    <TableView BackgroundColor="LightGray" HasUnevenRows="True">
+        <TableRoot>
+            <TableSection Title="Top 3 CHESS players">
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="magnus.jpg" Aspect="AspectFill" HeightRequest="200"
+                        HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                        <Label Text="Magnus Carlsen" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="fabi.jpg" Aspect="AspectFill" HeightRequest="200" WidthRequest="200"
+                        HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
+                        <Label Text="Fabiano Caruana" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="https://networthplanet.com/wp-content/uploads/2022/05/277836976_1297655740645156_195515336665309223_n-728x910.jpg"
+                           HeightRequest="200" WidthRequest="200" Aspect="AspectFill" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                        <Label Text="Hikaru Nakamura" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+                    </StackLayout>
+                </ViewCell>
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>

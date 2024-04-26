@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0eHVPZSXvziqafMG4H4O4WHAPfWr3uGP5ktzsNDBRjawP6UxA2Px4qTOrFnULyd0W+VpbkUcf6H9mxIc0h82VQ==",
+  "dgSpecHash": "C2RNbOpUt6f+bSYoyXuDCOuGul7gicqJ5UjpZasi4Fh9quceum52h4iST3AFbi0LdpfvA8VCi/tL8ME2q11keg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Olegi\\Desktop\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj",
+  "projectFilePath": "C:\\Users\\Olegi\\Documents\\GitHub\\Xamarin_Labs\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Olegi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Olegi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

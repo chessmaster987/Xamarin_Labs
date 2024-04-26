@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Olegi\\Desktop\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj": {}
+    "C:\\Users\\Olegi\\Documents\\GitHub\\Xamarin_Labs\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Olegi\\Desktop\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj": {
+    "C:\\Users\\Olegi\\Documents\\GitHub\\Xamarin_Labs\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Olegi\\Desktop\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj",
+        "projectUniqueName": "C:\\Users\\Olegi\\Documents\\GitHub\\Xamarin_Labs\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj",
         "projectName": "App1",
-        "projectPath": "C:\\Users\\Olegi\\Desktop\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj",
+        "projectPath": "C:\\Users\\Olegi\\Documents\\GitHub\\Xamarin_Labs\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj",
         "packagesPath": "C:\\Users\\Olegi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Olegi\\Desktop\\Calculator_sharp_Lab5\\App1\\App1\\obj\\",
+        "outputPath": "C:\\Users\\Olegi\\Documents\\GitHub\\Xamarin_Labs\\Calculator_sharp_Lab5\\App1\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Olegi\\Desktop\\Calculator_sharp_Lab5\\App1\\App1.Android\\App1.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Olegi\\Documents\\GitHub\\Xamarin_Labs\\Calculator_sharp_Lab5\\App1\\App1.Android\\App1.Android.csproj",
       "projectName": "App1.Android",
-      "projectPath": "C:\\Users\\Olegi\\Desktop\\Calculator_sharp_Lab5\\App1\\App1.Android\\App1.Android.csproj",
+      "projectPath": "C:\\Users\\Olegi\\Documents\\GitHub\\Xamarin_Labs\\Calculator_sharp_Lab5\\App1\\App1.Android\\App1.Android.csproj",
       "packagesPath": "C:\\Users\\Olegi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Olegi\\Desktop\\Calculator_sharp_Lab5\\App1\\App1.Android\\obj\\",
+      "outputPath": "C:\\Users\\Olegi\\Documents\\GitHub\\Xamarin_Labs\\Calculator_sharp_Lab5\\App1\\App1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\Olegi\\Desktop\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj": {
-              "projectPath": "C:\\Users\\Olegi\\Desktop\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj"
+            "C:\\Users\\Olegi\\Documents\\GitHub\\Xamarin_Labs\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj": {
+              "projectPath": "C:\\Users\\Olegi\\Documents\\GitHub\\Xamarin_Labs\\Calculator_sharp_Lab5\\App1\\App1\\App1.csproj"
             }
           }
         }
