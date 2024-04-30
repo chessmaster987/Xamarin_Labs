@@ -16532,61 +16532,61 @@ namespace Lab6_Lavrov_DS6.Droid
 			public const int design_snackbar_background = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int ic_arrow_down_24dp = 2131165284;
+			public const int fabi = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int ic_clock_black_24dp = 2131165285;
+			public const int ic_arrow_down_24dp = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int ic_keyboard_black_24dp = 2131165286;
+			public const int ic_clock_black_24dp = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int ic_mtrl_checked_circle = 2131165287;
+			public const int ic_keyboard_black_24dp = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int ic_mtrl_chip_checked_black = 2131165288;
+			public const int ic_mtrl_checked_circle = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int ic_mtrl_chip_checked_circle = 2131165289;
+			public const int ic_mtrl_chip_checked_black = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int ic_mtrl_chip_close_circle = 2131165290;
+			public const int ic_mtrl_chip_checked_circle = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int magnus = 2131165291;
+			public const int ic_mtrl_chip_close_circle = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int material_cursor_drawable = 2131165292;
+			public const int magnus = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int material_ic_calendar_black_24dp = 2131165293;
+			public const int material_cursor_drawable = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int material_ic_clear_black_24dp = 2131165294;
+			public const int material_ic_calendar_black_24dp = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int material_ic_edit_black_24dp = 2131165295;
+			public const int material_ic_clear_black_24dp = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165296;
+			public const int material_ic_edit_black_24dp = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165297;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165298;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165299;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165300;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165301;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int mohnatik = 2131165302;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165302;
 			
 			// aapt resource value: 0x7F070077
 			public const int mtrl_dialog_background = 2131165303;
