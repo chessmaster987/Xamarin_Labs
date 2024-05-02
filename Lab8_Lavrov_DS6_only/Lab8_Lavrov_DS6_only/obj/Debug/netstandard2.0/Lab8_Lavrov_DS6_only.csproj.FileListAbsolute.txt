@@ -1,0 +1,16 @@
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\bin\Debug\netstandard2.0\Lab8_Lavrov_DS6_only.deps.json
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\bin\Debug\netstandard2.0\Lab8_Lavrov_DS6_only.dll
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\bin\Debug\netstandard2.0\ref\Lab8_Lavrov_DS6_only.dll
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\bin\Debug\netstandard2.0\Lab8_Lavrov_DS6_only.pdb
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\obj\Debug\netstandard2.0\Lab8_Lavrov_DS6_only.csproj.AssemblyReference.cache
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\obj\Debug\netstandard2.0\Lab8_Lavrov_DS6_only.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\obj\Debug\netstandard2.0\DetailsPage.xaml.g.cs
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\obj\Debug\netstandard2.0\Lab8_Lavrov_DS6_only.AssemblyInfoInputs.cache
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\obj\Debug\netstandard2.0\Lab8_Lavrov_DS6_only.AssemblyInfo.cs
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\obj\Debug\netstandard2.0\Lab8_Lavrov_DS6_only.csproj.CoreCompileInputs.cache
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\obj\Debug\netstandard2.0\Lab8_Lavrov_DS6_only.dll
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\obj\Debug\netstandard2.0\refint\Lab8_Lavrov_DS6_only.dll
+C:\Users\Olegi\Documents\GitHub\Xamarin_Labs\Lab8_Lavrov_DS6_only\Lab8_Lavrov_DS6_only\obj\Debug\netstandard2.0\Lab8_Lavrov_DS6_only.pdb
