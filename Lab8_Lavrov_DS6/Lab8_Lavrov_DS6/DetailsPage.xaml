@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab8_Lavrov_DS6.DetailsPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Label Text="Опис:" FontSize="Medium" Grid.Row="0" />
+            <Label x:Name="DescriptionLabel" Grid.Row="1" />
+            <Image x:Name="Image" Grid.Row="2" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

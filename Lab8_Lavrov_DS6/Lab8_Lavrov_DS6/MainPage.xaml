@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab8_Lavrov_DS6.MainPage">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label Text="Top 3 CHESS players" FontSize="Large" HorizontalOptions="Center" Margin="0,20,0,10" Grid.Row="0" />
+
+                <Frame Grid.Row="1" Margin="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="https://images.chesscomfiles.com/uploads/v1/master_player/3b0ddf4e-bd82-11e8-9421-af517c2ebfed.23bcb9e8.160x160o.827f073930a6.jpg" WidthRequest="100" HeightRequest="100" Aspect="AspectFill" VerticalOptions="Center" />
+                        <StackLayout Grid.Column="1" VerticalOptions="Center" HorizontalOptions="StartAndExpand">
+                            <Label Text="Magnus Carlsen" />
+                            <Button Text="DETAILS" Clicked="Image1Details_Clicked" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+                <Frame Grid.Row="2" Margin="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="https://images.chesscomfiles.com/uploads/v1/master_player/c66cb17a-c005-11e8-886b-692f3468f8e7.b4d2d0e5.160x160o.a7fdc9487714.jpg" WidthRequest="100" HeightRequest="100" Aspect="AspectFill" VerticalOptions="Center"/>
+                        <StackLayout Grid.Column="1" VerticalOptions="Center" HorizontalOptions="StartAndExpand">
+                            <Label Text="Fabiano Caruana" />
+                            <Button Text="DETAILS" Clicked="Image2Details_Clicked" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+                <Frame Grid.Row="3" Margin="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="https://images.chesscomfiles.com/uploads/v1/master_player/5c8147c2-bd7f-11e8-863f-15ded6970bf6.e234e103.250x250o.70ca1cbc7be1.jpg" WidthRequest="100" HeightRequest="100" Aspect="AspectFill" VerticalOptions="Center"/>
+                        <StackLayout Grid.Column="1" VerticalOptions="Center" HorizontalOptions="StartAndExpand">
+                            <Label Text="Hikaru Nakamura" />
+                            <Button Text="DETAILS" Clicked="Image3Details_Clicked" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
