@@ -5,9 +5,9 @@
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" /> <!-- автоматично масштабується відповідно до розміру вмісту. -->
                 <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />  <!-- займає залишок доступного простору на сторінці.-->
             </Grid.RowDefinitions>
 
             <Label Text="Опис:" FontSize="Medium" Grid.Row="0" />

@@ -3,31 +3,57 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lab8_Lavrov_DS6.MainPage">
 
+    <ContentPage.Resources>
+        <!-- Визначаємо стиль для кнопок -->
+        <Style x:Key="buttonStyle" TargetType="Button">
+            <Setter Property="TextColor" Value="#004D40" />
+            <Setter Property="BackgroundColor" Value="#80CBC4" />
+            <Setter Property="FontSize" Value="Large" />
+        </Style>
+    </ContentPage.Resources>
+
     <ContentPage.Content>
+        <!-- Використовуємо ScrollView, щоб забезпечити прокрутку контенту -->
         <ScrollView>
+            <!-- Використовуємо Grid для компонування елементів -->
             <Grid>
+                <!-- Визначаємо рядки для Grid -->
                 <Grid.RowDefinitions>
+                    <!-- Автоматична висота для першого рядка -->
                     <RowDefinition Height="Auto" />
+                    <!-- Автоматична висота для другого рядка -->
                     <RowDefinition Height="Auto" />
+                    <!-- Автоматична висота для третього рядка -->
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
 
+                <!-- Label для заголовка -->
                 <Label Text="Top 3 CHESS players" FontSize="Large" HorizontalOptions="Center" Margin="0,20,0,10" Grid.Row="0" />
 
+                <!-- Frame та Grid для кожного гравця -->
                 <Frame Grid.Row="1" Margin="10">
                     <Grid>
+                        <!-- Визначаємо стовпці для Grid -->
                         <Grid.ColumnDefinitions>
+                            <!-- Автоматична ширина для першого стовпця -->
                             <ColumnDefinition Width="Auto" />
+                            <!-- Використовуємо доступний залишок простору для другого стовпця -->
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
+                        <!-- Зображення гравця -->
                         <Image Source="https://images.chesscomfiles.com/uploads/v1/master_player/3b0ddf4e-bd82-11e8-9421-af517c2ebfed.23bcb9e8.160x160o.827f073930a6.jpg" WidthRequest="100" HeightRequest="100" Aspect="AspectFill" VerticalOptions="Center" />
+                        <!-- StackLayout для тексту та кнопки DETAILS -->
                         <StackLayout Grid.Column="1" VerticalOptions="Center" HorizontalOptions="StartAndExpand">
+                            <!-- Label з ім'ям гравця -->
                             <Label Text="Magnus Carlsen" />
-                            <Button Text="DETAILS" Clicked="Image1Details_Clicked" />
+                            <!-- Кнопка для перегляду деталей -->
+                            <Button Text="DETAILS" Clicked="Image1Details_Clicked" Style="{StaticResource buttonStyle}" />
                         </StackLayout>
                     </Grid>
                 </Frame>
+
+                <!-- Аналогічно для інших гравців -->
                 <Frame Grid.Row="2" Margin="10">
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -37,10 +63,12 @@
                         <Image Source="https://images.chesscomfiles.com/uploads/v1/master_player/c66cb17a-c005-11e8-886b-692f3468f8e7.b4d2d0e5.160x160o.a7fdc9487714.jpg" WidthRequest="100" HeightRequest="100" Aspect="AspectFill" VerticalOptions="Center"/>
                         <StackLayout Grid.Column="1" VerticalOptions="Center" HorizontalOptions="StartAndExpand">
                             <Label Text="Fabiano Caruana" />
-                            <Button Text="DETAILS" Clicked="Image2Details_Clicked" />
+                            <Button Text="DETAILS" Clicked="Image2Details_Clicked" Style="{StaticResource buttonStyle}" />
                         </StackLayout>
                     </Grid>
                 </Frame>
+
+                <!-- Та для третього гравця -->
                 <Frame Grid.Row="3" Margin="10">
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -50,7 +78,7 @@
                         <Image Source="https://images.chesscomfiles.com/uploads/v1/master_player/5c8147c2-bd7f-11e8-863f-15ded6970bf6.e234e103.250x250o.70ca1cbc7be1.jpg" WidthRequest="100" HeightRequest="100" Aspect="AspectFill" VerticalOptions="Center"/>
                         <StackLayout Grid.Column="1" VerticalOptions="Center" HorizontalOptions="StartAndExpand">
                             <Label Text="Hikaru Nakamura" />
-                            <Button Text="DETAILS" Clicked="Image3Details_Clicked" />
+                            <Button Text="DETAILS" Clicked="Image3Details_Clicked" Style="{StaticResource buttonStyle}" />
                         </StackLayout>
                     </Grid>
                 </Frame>
